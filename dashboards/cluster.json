@@ -232,7 +232,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "node_load5{instance=\"10.0.0.89:9100\"}",
+          "expr": "node_load5",
           "format": "time_series",
           "intervalFactor": 1,
           "legendFormat": "{{instance}}",
@@ -497,7 +497,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "node_filesystem_avail_bytes{instance=\"10.0.0.89:9100\",mountpoint=\"/etc/hostname\"}",
+          "expr": "node_filesystem_avail_bytes{mountpoint=\"/etc/hostname\"}",
           "format": "time_series",
           "intervalFactor": 1,
           "legendFormat": "{{instance}}, {{device}}",
@@ -507,7 +507,7 @@
       "thresholds": [],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Disk space free (WRONG)",
+      "title": "Disk space free",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -733,7 +733,7 @@
     "list": []
   },
   "time": {
-    "from": "now-24h",
+    "from": "now-2d",
     "to": "now"
   },
   "timepicker": {
