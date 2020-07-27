@@ -1,4 +1,4 @@
-FROM grafana/grafana:6.6.0
+FROM grafana/grafana:7.1.1
 
 VOLUME /var/lib/grafana
 
